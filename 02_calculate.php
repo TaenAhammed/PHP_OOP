@@ -5,7 +5,7 @@ class Calculate
     private $n1;
     private $n2;
 
-    function __construct($a, $b)
+    public function __construct($a, $b)
     {
         $this->n1 = $a;
         $this->n2 = $b;
